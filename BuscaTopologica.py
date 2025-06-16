@@ -1,6 +1,4 @@
-import tkinter as tk
-from tkinter import scrolledtext, font
-import networkx as nx
+
 import matplotlib.pyplot as plt
 
 from Pilhas import Pilha
