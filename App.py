@@ -19,11 +19,11 @@ class App:
         self.fonte_titulo = font.Font(family="Helvetica", size=16, weight="bold")
         self.fonte_texto = font.Font(family="Consolas", size=12)
 
-        self.label = tk.Label(master, text="Ordenação Topológica das Disciplinas",
+        self.label = tk.Label(master, text="Ordenacao Topologica das Disciplinas",
                               bg="#2E3440", fg="#D8DEE9", font=self.fonte_titulo)
         self.label.pack(pady=(20, 10))
 
-        self.btn_ordenar = tk.Button(master, text="Executar Ordenação e Mostrar Grafo", command=self.executar_ordenacao,
+        self.btn_ordenar = tk.Button(master, text="Executar Ordenacao e Mostrar Grafo", command=self.executar_ordenacao,
                                      bg="#81A1C1", fg="#2E3440", font=self.fonte_texto,
                                      activebackground="#5E81AC", activeforeground="#ECEFF4",
                                      relief=tk.RAISED, bd=3, padx=10, pady=5)
