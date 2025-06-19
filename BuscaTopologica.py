@@ -12,10 +12,8 @@ class Vertice:
 
 
 class Adjacente:
-    def __init__(self, vertice, custo=1):
+    def __init__(self, vertice):
         self.vertice = vertice
-        self.custo = custo
-
 
 class Grafo:
     def __init__(self):
