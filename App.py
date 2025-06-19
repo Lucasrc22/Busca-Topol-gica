@@ -54,7 +54,7 @@ class App:
 
         plt.figure(figsize=(20, 15))
         pos = nx.spring_layout(G, seed=42, k=1.2) 
-        nx.draw(G, pos, with_labels=True, node_color="#81A1C1", edge_color="#D8DEE9",
+        nx.draw(G, pos, with_labels=True, node_color="#81A1C1", edge_color="#000000",
                 node_size=2000, font_size=10, font_weight="bold", arrowsize=20)
         plt.title("Grafo Direcionado das Disciplinas", fontsize=16)
         plt.tight_layout()
